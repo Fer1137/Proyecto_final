@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Proyectos de Título</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <style>
+            .idea{
+                weith:100%;
+                clear:both;
+                margin-left: -0.75rem;
+            }
+            .idea img{ 
+                width:100%; 
+                height: auto; 
+            } 
+            .esconde{
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Resumen <span>de Proyectos de Título</span></a>
+            <a href="profes.html" class="active"><span>Proyectos por </span>Profesor(a) Guía</a>
+            <a href="titulos.html"><span>Proyectos por </span>Título Profesional</a>
+            <a href="semestres.html"><span>Proyectos por </span>Semestre</a>
+        </nav>
+        <header>
+            <h1>Proyectos por Profesor(a) Guía</h1>
+            <select>
+                <option value="Menteguiaga Schmidt, Clarisa" selected>Clarisa Menteguiaga Schmidt</option>
+                <option value="Osorio Muñoz, Astrid">Astrid Osorio Muñoz</option>
+            </select>
+        </header>
+        <main>
+            
+            <div class="info" id="primera">
+                <div class="medio">
+                <img src="viz/prototipo--01_01.png"></div>
+                
+                <div class="medio">
+                    <h1>Clarisa Menteguiaga</h1>
+                    <h3>Correo: mclarisa@gmail.com</h3>
+                    <p>Profesora Adjunta
+                       Escuela de Pregrado Unificada
+                       Facultad de Arquitectura y Urbanismo</p>
+                    
+                    <p>Diseñadora Gráfica de la Universidad de Buenos Aires (2002)
+                       PhD (c) en Artes, Universidad Politécnica de Valencia
+                       Máster en Artes Visuales de la Universidad Católica de Chile (2019)
+                       Postgrado en Fotografía de la Universidad de Chile (2009)
+                       Diplomado en Grabado de la Universidad Católica de Chile (2012)</p>
+                </div>
+                
+                <div class="completo"><img src="viz/prototipo--01_03.png"></div>
+                
+                <div class="medio">
+                    <h2>Áreas Prioritarias</h2>
+                    <li>1. Sistemas físicos, naturales y cambios ambientales.</li>
+                    <li>2. Dimensiones socioecológicas en el territorio.</li>
+                    <li>5. Creación, innovación proyectual y desarrollos tecnológicos.</li>
+                    <li>6. Conservación e intervención de obras, entornos y ciudades patrimoniales.</li>
+                    </div>
+                <div class="medio">
+                    <h2>Líneas de Investigación</h2>
+                    <li>Diseño centrado en la persona (Producto y servicios)</li>
+                    <li>Materiales, Tecnologías y Procesos</li>
+                    <h2>Énfasis del Plan de Estudios</h2>
+                    <li>Innovación</li>
+                    <li>Creación</li>
+                    </div>
+                
+                <div class="completo">
+                    <h3>Asignaturas impartidas</h3>
+                    <object data="viz/mutiset_bar_chart.svg" type="image/svg+xml"></object>
+                </div>
+                
+                <div class="completo"><img src="viz/prototipo--01_06.png"></div>
+            </div>
+            
+                
+                
+            <div class="info esconde" id="segunda">
+               <div class="completo"><img src="viz/prototipo-02-02_01.png"></div>
+                
+                <div class="medio">
+                    <h1>Astrid Muñoz</h1>
+                    <h3>Correo: jefediseno@uchilefau.cl</h3>
+                    <p>Jefa carrera Diseño
+                       Profesora Adjunta
+                       Escuela de Pregrado Unificada
+                       Facultad de Arquitectura y Urbanismo</p>
+                    
+                    <p>Diseñadora Industrial 
+                       Especialista en Lógica y Técnica de la Forma 
+                       Diplomada en Diseño de Paisaje (PUC</p>
+                </div>
+                
+                
+                <div class="completo"><img src="viz/prototipo-02-03.png"></div>
+                
+                <div class="medio">
+                    <h2>Áreas Prioritarias</h2>
+                    <li>2. Dimensiones socioecológicas en el territorio.</li>
+                    <li>5. Creación, innovación proyectual y desarrollos tecnológicos.</li>
+                    <li>8. Fenómenos sensibles, perceptuales y corporales en el entorno.</li>
+                    </div>
+                <div class="medio">
+                    <h2>Líneas de Investigación</h2>
+                    <li>Materiales, Tecnologías y Procesos</li>
+                    <li>Morfología, Percepción y Color</li>
+                    <h2>Énfasis del Plan de Estudios</h2>
+                    <li>Innovación</li>
+                    <li>Creación</li>
+                    </div>
+                
+                <div class="completo"><img src="viz/prototipo-02-02_06.png"></div>
+                
+                <div class="completo"><img src="viz/prototipo-02-02_07.png"></div>
+            </div>
+            
+            <div class="doble">
+                <div class="uno">
+                    <p>¿Cómo se relaciona su nota aprobatoria previa, de Proyecto de Título I, con la nota definida por la comisión examinadora de Proyecto de Título II?</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65" id="slope"></svg>
+                </div>
+                <div class="otro">
+                    <p>¿Qué parte de las inscripciones en la asignatura de Proyecto de Título II con <span id="profe"></span> se han convertido en Exámenes de Título aprobados?</p>
+                    <div id="donnut"></div>
+                </div>    
+                <hr/>
+            </div>
+            <h2></h2>
+            <table>
+                <thead>
+                    <th>Egresado/a</th>
+                    <th>Título</th>
+                    <th>Semestre</th>
+                    <th>Proyecto</th>
+                    <th>Nota</th>
+                </thead>
+                <tbody id="mencion"></tbody>
+            </table>
+            <div id="palabreo"></div>           
+        </main>
+        <footer>
+            <p>
+                <small>
+                    <a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a> | Este ejercicio, preparado por
+                    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/profesorfaco">profesorfaco</a>, es publicado bajo licencia
+                    <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC 4.0</a>
+                </small>
+            </p>
+        </footer>
+        <script src="js/profes.js"></script>
+    </body>
+</html>
